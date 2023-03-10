@@ -1,0 +1,175 @@
+*{
+    margin: 1px;
+    padding: 1px;
+    box-sizing: border-box;
+    background-color: #111827;
+    color: rgb(247, 244, 244);
+}
+
+header nav ul {   
+    display: flex;
+    gap: 20px;
+    justify-content: end;
+    list-style-type: none;
+    font-size: 20px;
+}
+.home-option{
+    background-color:rgb(249, 6, 249);
+}
+header nav div img{
+    width: 20px;
+    display: none;
+}
+.intro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.intro-left{
+    gap: 30px;
+}
+.intro-line-1{
+    display: flex;
+}   
+
+.intro-line-1 img{
+    width: 25px;
+}
+.intro-line-1 h3{
+    font-size:40px;
+    
+}
+.intro-right img{
+    width: 550px;  
+}
+.intro-line-2 h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+.intro-line-2 h2{
+    color: rgb(245, 245, 22);
+    font-size: 40px;
+}
+.projects{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.projects div h1{
+    font-size: 40px;
+    text-decoration: underline darkcyan;
+    text-align: center;
+}
+
+
+.project-list{
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    justify-content: center;
+    row-gap: 20px;
+    column-gap: 20px; 
+}
+img[alt="project-image"]{
+    width: 30vw;
+}
+.project{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+img[alt="social"]{
+    width: 2vw;
+}
+.contact{
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+footer section div h1{
+    font-size: 40px;
+    font-weight: 600;
+    text-decoration: underline darkcyan;
+}
+.socials{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+@media screen and (max-width: 576px){
+    header nav ul{
+        display: none;
+    }
+    header nav div img{
+        display: block;
+        width: 20px;
+    }
+    .intro{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .intro-right img{
+        width: 100px;
+    }
+    .intro-line-1 img{
+        width: 15px;
+    }
+    .intro-line-1 h1{
+        font-size: 25px;
+    }
+    .intro-line-1 h3{
+        font-size:20px;
+        
+    }
+    .intro-line-2 h2{
+        color: rgb(245, 245, 22);
+        font-size: 20px;
+    }
+    .projects{
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    
+    }
+    img[alt="project-image"]{
+        width: 35vw;
+    }
+    .projects div h1{
+        font-size: 40px;
+        text-decoration: underline darkcyan;
+        text-align: center;
+    }
+    .project{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: 30px;
+    }
+    .project-list{
+        display: grid;
+        grid-template-columns: auto ;
+        align-items: center;
+        justify-content: center;
+        row-gap: 20px;
+        column-gap: 20px;
+}
+footer section div h1{
+    font-size: 30px;
+    font-weight: 600;
+    text-decoration: underline darkcyan;
+}
+img[alt="social"]{
+    width: 6vw;
+}
+}
